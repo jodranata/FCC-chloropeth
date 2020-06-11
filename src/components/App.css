@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  background-color: #292929;
+  color: #f0f0f0;
+  padding: 25px 8px;
+  box-shadow: 0 0 14px 7px rgba(0, 0, 0, 0.728);
+  position: relative;
+}
+
+.county-tooltip {
+  font-size: 0.9rem;
+}

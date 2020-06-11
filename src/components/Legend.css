@@ -1,0 +1,28 @@
+.legend-container {
+  position: absolute;
+  right: 75px;
+}
+
+.legend-box {
+  width: 35px;
+  height: 35px;
+  position: relative;
+}
+
+.legend-text {
+  color: white;
+  position: absolute;
+  right: -10px;
+  transform: translate(100%, 75%);
+  font-size: 0.85rem;
+}
+
+.legend-tick {
+  width: 95px;
+  height: 1.5px;
+  bottom: 0%;
+  position: absolute;
+  background: #f0f0f0;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
